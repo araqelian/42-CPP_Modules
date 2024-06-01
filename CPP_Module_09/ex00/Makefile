@@ -4,6 +4,10 @@ CXX = c++
 
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
+ifeq ($(shell uname -s), Linux)
+	CXXFLAGS = -Wall -Wextra -Werror -std=c++11
+endif
+
 SRCS = $(wildcard *.cpp)
 
 OBJS = $(patsubst %.cpp, %.o, $(SRCS))

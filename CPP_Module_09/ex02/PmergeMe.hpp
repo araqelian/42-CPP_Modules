@@ -13,6 +13,8 @@
 #ifndef	__MERGE__
 #define __MERGE__
 
+#include <climits>
+#include <cstdlib>
 #include <sys/time.h>
 #include <iostream>
 #include <sstream>

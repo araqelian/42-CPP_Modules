@@ -13,6 +13,7 @@
 #ifndef ARRAY_HPP
 #define ARRAY_HPP
 
+#include <cstdlib>
 #include <iostream>
 #include <exception>
 #include <ctime>

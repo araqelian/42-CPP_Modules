@@ -27,7 +27,7 @@ RobotomyRequestForm::RobotomyRequestForm(const std::string& new_target) : AForm(
 	target = new_target;
 }
 
-RobotomyRequestForm::RobotomyRequestForm(const RobotomyRequestForm& other)
+RobotomyRequestForm::RobotomyRequestForm(const RobotomyRequestForm& other) : AForm()
 {
 	std::cout << "Copy constructor for " << this->getName();
 	std::cout << " obj called by RobotomyRequestForm class!" << std::endl;

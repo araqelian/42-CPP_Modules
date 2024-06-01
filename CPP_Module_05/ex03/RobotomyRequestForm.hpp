@@ -13,6 +13,8 @@
 #ifndef ROBOTOMYREQESTFORM_HPP
 #define ROBOTOMYREQESTFORM_HPP
 
+#include <cstdlib>
+#include <ctime>
 #include <iostream>
 
 #include "./AForm.hpp"

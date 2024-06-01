@@ -13,6 +13,7 @@
 #ifndef __RPN__
 #define __RPN__
 
+#include <cstdlib>
 #include <iostream>
 #include <stack>
 

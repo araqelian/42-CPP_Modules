@@ -13,17 +13,20 @@
 #ifndef REPLACE_HPP
 #define REPLACE_HPP
 
+#include <cstring>
+#include <string>
+#include <cstdlib>
 #include <iostream>
 #include <fstream>
-
+#include <cerrno>
 
 class Replace
 {
-    std::ofstream   outFile;
-    std::ifstream   infile;
-    std::string     r_filename;
-    std::string     r_s1;
-    std::string     r_s2;
+    std::ofstream		outFile;
+    std::ifstream		infile;
+    std::string     		r_filename;
+    std::string			r_s1;
+    std::string			r_s2;
     
 public:
     Replace(std::string filename, std::string s1, std::string s2);

@@ -13,6 +13,7 @@
 #ifndef __BITCOIN__
 #define __BITCOIN__
 
+#include <cstring>
 #include <algorithm>
 #include <iostream>
 #include <fstream>

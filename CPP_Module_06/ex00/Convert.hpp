@@ -13,6 +13,7 @@
 #ifndef CONVERT_HPP
 #define CONVERT_HPP
 
+#include <climits>
 #include <iostream>
 #include <iomanip>
 #include <sstream>

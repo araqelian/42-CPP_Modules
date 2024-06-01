@@ -13,6 +13,7 @@
 #ifndef HARL_HPP
 #define HARL_HPP
 
+#include <cstdlib>
 #include <iostream>
 
 class Harl

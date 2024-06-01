@@ -18,7 +18,7 @@
 
 int main()
 {
-	/* xntrum em main@ duq greq, es haves chunem */
+	/* pleace write your code */
 	
 	return 0;
 }

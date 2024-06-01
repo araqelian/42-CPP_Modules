@@ -13,6 +13,7 @@
 #ifndef DATA_HPP
 #define DATA_HPP
 
+#include <cstdint>
 #include <iostream>
 
 class Data

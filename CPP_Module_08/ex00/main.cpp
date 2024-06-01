@@ -14,7 +14,6 @@
 
 int main()
 {
-	//std::vector<int> vec = {1, 10, 9462, 58, 52};    // -std=c++11
 	std::vector<int> vec;
 
 	vec.push_back(1);
@@ -23,14 +22,7 @@ int main()
 	vec.push_back(58);
 	vec.push_back(52);
 
-	// std::cout << vec[0] << " " << vec[1] << " " << vec[2] \
-	// << " " << vec[3] << " " << vec[4] << std::endl << std::endl;
 	
-
-	//vec.reserve(100);
-	//std::cout << vec.capacity() << std::endl;
-
-
 	std::cout << "Elements the int vector:\t";
 	std::cout << vec.at(0) << " " << vec.at(1) << " " << vec.at(2) \
 	<< " " << vec.at(3) << " " << vec.at(4) << std::endl << std::endl;

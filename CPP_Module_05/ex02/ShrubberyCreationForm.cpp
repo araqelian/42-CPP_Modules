@@ -26,7 +26,7 @@ ShrubberyCreationForm::ShrubberyCreationForm(const std::string& new_target) : AF
 	std::cout << " obj called by ShrubberyCreationForm class!" << std::endl;
 }
 
-ShrubberyCreationForm::ShrubberyCreationForm(const ShrubberyCreationForm& other) : target(other.target)
+ShrubberyCreationForm::ShrubberyCreationForm(const ShrubberyCreationForm& other) : AForm(), target(other.target)
 {
 	std::cout << "Copy constructor for " << this->getName();
 	std::cout << " obj called by ShrubberyCreationForm class!" << std::endl;
@@ -61,7 +61,7 @@ void		ShrubberyCreationForm::execute(Bureaucrat const & executor) const
 	
 	if (!ofs.is_open())
 	{
-		std::cout << "Error\n" << strerror(errno) << std::endl;
+		perror("");
 		return ;
 	}
 	ofs << "                       .  ,****** **  ,                     " << std::endl;
